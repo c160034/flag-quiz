@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# flag-quiz
+A game to test user's knowledge on countries flag and train their brain. Serve as a study aid for people who are memorizing countries flag. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit [HERE](https://react-flag-quiz.netlify.app/) !
 
-## Available Scripts
+### Built With
+* ReactJS 
+* JSX 
+* Javascript 
+* HTML/CSS
+* Netlify
+* [CSS button](https://getcssscan.com/css-buttons-examples)
+* [background image](https://en.wikipedia.org/wiki/Flag#/media/File:United_Nations_Flags_-_cropped.jpg)
+* [confetti library](https://ulitcos.github.io/react-canvas-confetti/)
+* [flags image API](https://flagpedia.net/download/api)
+* [countries JSON](https://restcountries.com/v3.1/all)
 
-In the project directory, you can run:
+### Key Features
 
-### `npm start`
+* User can specify a winning score to attain as a goal.
+<p top-margin="100px" align="center">
+  <img width="960" alt="image" src="https://user-images.githubusercontent.com/113081975/224084896-c5be3e2b-cd5e-4aa6-9ca6-301fb23e558e.png"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+* Country name hovered over (eg. Norway in image below) will be shown in bold.
+<p align="center">
+  <img width="409" alt="image" src="https://user-images.githubusercontent.com/113081975/224085579-8440dc0f-4677-4a6e-89ed-243d5ce4e6c1.png"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* If a country name is wrongly selected, that name will be removed from the selection (see last select option in image below) and score will be deducted by 1 (min score is zero). 
+<p align="center">
+  <img width="388" alt="image" src="https://user-images.githubusercontent.com/113081975/224086741-22fb7bcb-4c87-4bd4-a2b9-54b0253bf6da.png">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Once the winning score is attained, a color changing "Congratulations" will appear with confetti popping from both sides.  
+<p align="center">
+  <img width="957" alt="image" src="https://user-images.githubusercontent.com/113081975/224087800-15b36f37-fc5a-4c84-96d5-4f8df7d4ae2e.png">
+</p>
