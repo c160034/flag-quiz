@@ -7,7 +7,7 @@ Visit [HERE](https://react-flag-quiz.netlify.app/) !
 * ReactJS 
 * JSX 
 * Javascript 
-* HTML/CSS
+* CSS
 * Netlify
 * [CSS button](https://getcssscan.com/css-buttons-examples)
 * [background image](https://en.wikipedia.org/wiki/Flag#/media/File:United_Nations_Flags_-_cropped.jpg)
